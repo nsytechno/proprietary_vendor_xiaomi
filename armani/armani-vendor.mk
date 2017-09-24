@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
 
 # ADSP (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/xiaomi/armani/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/xiaomi/armani/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/armani/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/xiaomi/armani/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/xiaomi/armani/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/armani/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
 
 # DRM (seed)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/xiaomi/armani/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -146,9 +146,9 @@ PRODUCT_COPY_FILES += \
 
 # GPS (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/xiaomi/armani/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/xiaomi/armani/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/xiaomi/armani/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
+    vendor/xiaomi/armani/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/xiaomi/armani/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/xiaomi/armani/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/armani/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/xiaomi/armani/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -220,7 +220,7 @@ PRODUCT_COPY_FILES += \
 
 # Qualcomm (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/xiaomi/armani/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -238,11 +238,11 @@ PRODUCT_COPY_FILES += \
 
 # Radio (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/xiaomi/armani/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/armani/proprietary/bin/radish:system/bin/radish \
-    vendor/xiaomi/armani/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/xiaomi/armani/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/xiaomi/armani/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/xiaomi/armani/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/xiaomi/armani/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/xiaomi/armani/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
+    vendor/xiaomi/armani/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/xiaomi/armani/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
@@ -256,7 +256,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/armani/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/xiaomi/armani/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -266,13 +266,13 @@ PRODUCT_COPY_FILES += \
 
 # Thermal (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/xiaomi/armani/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/armani/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
 # Time services (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/xiaomi/armani/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/xiaomi/armani/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
