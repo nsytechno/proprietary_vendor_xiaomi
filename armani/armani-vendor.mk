@@ -149,15 +149,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 
-# GPS (TheMuppets Motorola msm8226-common)
+# GPS (OnePlus bacon)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
+    vendor/xiaomi/armani/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/xiaomi/armani/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/xiaomi/armani/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/xiaomi/armani/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/xiaomi/armani/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/armani/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/xiaomi/armani/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/xiaomi/armani/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
+    vendor/xiaomi/armani/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
