@@ -16,6 +16,7 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    SimSettings \
     TimeService
 
 # Prebuilt vendor/libs needed for compilation
